@@ -162,7 +162,7 @@
 		},
 		"inplay":{
 			"locateMode":0,
-			"locateValue":"libcocos2dcpp.so.1",
+			"locateValue":"libcocos2dcpp.so.2",
 			"memOffset":"3FEA8,140,140,0,20,2A0,38",
 			"lookMode":0,
 			"lookValue":"",
