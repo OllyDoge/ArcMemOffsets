@@ -127,7 +127,7 @@
 		},
 		"clearscore":{
 			"locateMode":0,
-			"locateValue":"libcocos2dcpp.so.2",
+			"locateValue":"libcocos2dcpp.so.1",
 			"memOffset":"D0840,0,0",
 			"lookMode":0,
 			"lookValue":"",
