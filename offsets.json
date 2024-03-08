@@ -65,7 +65,7 @@
 		"inplay":{
 			"locateMode":0,
 			"locateValue":"libcocos2dcpp.so.2",
-			"memOffset":"408E0,68,18,B0,2B0,38",
+			"memOffset":"408E0,18,B0,2B0,38",
 			"lookMode":0,
 			"lookValue":"",
 			"struct":{
