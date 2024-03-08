@@ -65,7 +65,7 @@
 		"inplay":{
 			"locateMode":0,
 			"locateValue":"libcocos2dcpp.so.2",
-			"memOffset":"408E0,18,B0,2B0,38",
+			"memOffset":"40358,B8,30,140,140,0,8,2E8,38",
 			"lookMode":0,
 			"lookValue":"",
 			"struct":{
@@ -80,7 +80,7 @@
 				"far_early":"84,int",
 				"far_late":"80,int",
 				"lost":"6C,int",
-				"abstime":"BC,int"
+				"abstime":"C0,int"
 			},
 			"innerStructs":{
 				"info":{
