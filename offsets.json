@@ -506,7 +506,7 @@
             "inplay": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "D57B8,0,88,150,140,140,0,20,2A0,38",
+                "memOffset": "D6838,10,140,2A0,8,148,148,2F0,38",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
