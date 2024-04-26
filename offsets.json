@@ -141,7 +141,7 @@
                     "songid": "39,string",
                     "diff": "50,int",
                     "modifier": "54,int",
-                    "trackvalue": "28,int",
+                    "trackvalue": "28,short",
                     "time": "30,int"
                 },
                 "innerStructs": {}
@@ -161,7 +161,7 @@
                     "lost": "20,int",
                     "songid": "39,string",
                     "modifier": "54,int",
-                    "trackvalue": "28,int",
+                    "trackvalue": "28,short",
                     "time": "30,int",
                     "player": "98,ulong"
                 },
@@ -213,6 +213,22 @@
                 "lookValue": "",
                 "struct": {
                     "frag": "14,int"
+                },
+                "innerStructs": {}
+            },
+			"worldmode": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D54A0,0,80,B8",
+                "lookMode": 0,
+                "lookValue": "",
+                "struct": {
+					"charstep":"78,float",
+					"charstepnobonus":"3C,float",
+					"playbase":"44,float",
+					"movestepnobonus":"7C,float",
+					"movestep":"4C,float",
+					"dataid":"68,ulong"
                 },
                 "innerStructs": {}
             }
