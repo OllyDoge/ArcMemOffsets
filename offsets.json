@@ -228,7 +228,7 @@
 					"playbase":"44,float",
 					"movestepnobonus":"7C,float",
 					"movestep":"4C,float",
-					"dataid":"68,ulong"
+					"dataid":"20,ulong"
                 },
                 "innerStructs": {}
             }
