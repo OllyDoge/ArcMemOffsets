@@ -749,5 +749,255 @@
                 "innerStructs": {}
             }
         }
+    },{
+        "gamever": "5.7.0c",
+        "offsets": {
+            "userinfo": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D5FB0,0,80,C8",
+                "lookMode": 0,
+                "lookValue": "",
+                "struct": {
+                    "uid": "C,int",
+                    "friendcode": "11,string",
+                    "username": "29,string",
+                    "character": "40,int",
+                    "ptt": "44,int"
+                },
+                "innerStructs": {}
+            },
+            "clearscore": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D5FB0,0,98,0,0,148,2F8",
+                "lookMode": 0,
+                "lookValue": "",
+                "struct": {
+                    "score": "10,int",
+                    "maxpure": "14,int",
+                    "pure": "18,int",
+                    "far": "1C,int",
+                    "lost": "20,int",
+                    "songid": "39,string",
+                    "diff": "50,int",
+                    "modifier": "54,int",
+                    "trackvalue": "28,short",
+                    "time": "30,int"
+                },
+                "innerStructs": {}
+            },
+            "ranklist": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D5FB0,0,98,0,0,2B8,78,3D0",
+                "lookMode": 1,
+                "lookValue": "8,20",
+                "struct": {
+                    "diff": "50,int",
+                    "score": "10,int",
+                    "maxpure": "14,int",
+                    "pure": "18,int",
+                    "far": "1C,int",
+                    "lost": "20,int",
+                    "songid": "39,string",
+                    "modifier": "54,int",
+                    "trackvalue": "28,short",
+                    "time": "30,int",
+                    "player": "98,ulong"
+                },
+                "innerStructs": {
+                    "player": {
+                        "uid": "C,int",
+                        "name": "29,string"
+                    }
+                }
+            },
+            "inplay": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D5FB0,0,88,150,140,140,0,20,2A0,38",
+                "lookMode": 0,
+                "lookValue": "",
+                "struct": {
+                    "info": "A8,ulong",
+                    "maxnote": "C,int",
+                    "score": "14,int",
+                    "maxpure": "60,int",
+                    "pure": "64,int",
+                    "pure_early": "8C,int",
+                    "pure_late": "88,int",
+                    "far": "68,int",
+                    "far_early": "84,int",
+                    "far_late": "80,int",
+                    "lost": "6C,int",
+                    "abstime": "C0,int"
+                },
+                "innerStructs": {
+                    "info": {
+                        "songid": "10,ulong",
+                        "songdiff": "18,ulong"
+                    },
+                    "info_songid": {
+                        "songid": "1,string"
+                    },
+                    "info_diff": {
+                        "diff": "124,int"
+                    }
+                }
+            },
+            "frag": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D5FB0,0,78",
+                "lookMode": 0,
+                "lookValue": "",
+                "struct": {
+                    "frag": "14,int"
+                },
+                "innerStructs": {}
+            },
+			"worldmode": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D5FB0,0,80,B8",
+                "lookMode": 0,
+                "lookValue": "",
+                "struct": {
+					"charstep":"78,float",
+					"charstepnobonus":"3C,float",
+					"playbase":"44,float",
+					"movestepnobonus":"7C,float",
+					"movestep":"4C,float",
+					"dataid":"20,ulong"
+                },
+                "innerStructs": {}
+            }
+        }
+    },{
+        "gamever": "5.7.0",
+        "offsets": {
+            "userinfo": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D6508,0,80,C8",
+                "lookMode": 0,
+                "lookValue": "",
+                "struct": {
+                    "uid": "C,int",
+                    "friendcode": "11,string",
+                    "username": "29,string",
+                    "character": "40,int",
+                    "ptt": "44,int"
+                },
+                "innerStructs": {}
+            },
+            "clearscore": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D6508,0,98,0,0,148,2F8",
+                "lookMode": 0,
+                "lookValue": "",
+                "struct": {
+                    "score": "10,int",
+                    "maxpure": "14,int",
+                    "pure": "18,int",
+                    "far": "1C,int",
+                    "lost": "20,int",
+                    "songid": "39,string",
+                    "diff": "50,int",
+                    "modifier": "54,int",
+                    "trackvalue": "28,short",
+                    "time": "30,int"
+                },
+                "innerStructs": {}
+            },
+            "ranklist": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D6508,0,98,0,0,2B8,78,3D0",
+                "lookMode": 1,
+                "lookValue": "8,20",
+                "struct": {
+                    "diff": "50,int",
+                    "score": "10,int",
+                    "maxpure": "14,int",
+                    "pure": "18,int",
+                    "far": "1C,int",
+                    "lost": "20,int",
+                    "songid": "39,string",
+                    "modifier": "54,int",
+                    "trackvalue": "28,short",
+                    "time": "30,int",
+                    "player": "98,ulong"
+                },
+                "innerStructs": {
+                    "player": {
+                        "uid": "C,int",
+                        "name": "29,string"
+                    }
+                }
+            },
+            "inplay": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D6508,0,88,150,140,140,0,20,2A0,38",
+                "lookMode": 0,
+                "lookValue": "",
+                "struct": {
+                    "info": "A8,ulong",
+                    "maxnote": "C,int",
+                    "score": "14,int",
+                    "maxpure": "60,int",
+                    "pure": "64,int",
+                    "pure_early": "8C,int",
+                    "pure_late": "88,int",
+                    "far": "68,int",
+                    "far_early": "84,int",
+                    "far_late": "80,int",
+                    "lost": "6C,int",
+                    "abstime": "C0,int"
+                },
+                "innerStructs": {
+                    "info": {
+                        "songid": "10,ulong",
+                        "songdiff": "18,ulong"
+                    },
+                    "info_songid": {
+                        "songid": "1,string"
+                    },
+                    "info_diff": {
+                        "diff": "124,int"
+                    }
+                }
+            },
+            "frag": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D6508,0,78",
+                "lookMode": 0,
+                "lookValue": "",
+                "struct": {
+                    "frag": "14,int"
+                },
+                "innerStructs": {}
+            },
+			"worldmode": {
+                "locateMode": 0,
+                "locateValue": "libcocos2dcpp.so.1",
+                "memOffset": "D6508,0,80,B8",
+                "lookMode": 0,
+                "lookValue": "",
+                "struct": {
+					"charstep":"78,float",
+					"charstepnobonus":"3C,float",
+					"playbase":"44,float",
+					"movestepnobonus":"7C,float",
+					"movestep":"4C,float",
+					"dataid":"20,ulong"
+                },
+                "innerStructs": {}
+            }
+        }
     }
 ]
