@@ -665,7 +665,7 @@
             "ranklist": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "D9248,0,98,0,0,2B8,78,3D0",
+                "memOffset": "D9248,0,98,0,0,2B8,A0,3D0",
                 "lookMode": 1,
                 "lookValue": "8,20",
                 "struct": {
@@ -790,7 +790,7 @@
             "ranklist": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "D9290,0,98,0,0,2B8,78,3D0",
+                "memOffset": "D9290,0,98,0,0,2B8,A0,3D0",
                 "lookMode": 1,
                 "lookValue": "8,20",
                 "struct": {
