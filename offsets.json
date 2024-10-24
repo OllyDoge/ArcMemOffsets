@@ -255,7 +255,7 @@
             "userinfo": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "DF388,0,80,C8",
+                "memOffset": "DEEF0,0,80,C8",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
@@ -270,7 +270,7 @@
             "clearscore": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "DF388,0,98,0,0,148,2F8",
+                "memOffset": "DEEF0,0,98,0,0,148,2F8",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
@@ -290,7 +290,7 @@
             "ranklist": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "DF388,0,98,0,0,2B8,A0,3D0",
+                "memOffset": "DEEF0,0,98,0,0,2B8,A0,3D0",
                 "lookMode": 1,
                 "lookValue": "8,20",
                 "struct": {
@@ -316,7 +316,7 @@
             "inplay": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "DF388,0,88,150,140,140,0,20,2A0,38",
+                "memOffset": "DEEF0,0,88,150,140,140,0,20,2A0,38",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
@@ -349,7 +349,7 @@
             "frag": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "DF388,0,78",
+                "memOffset": "DEEF0,0,78",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
@@ -360,7 +360,7 @@
 			"worldmode": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "DF388,0,80,B8",
+                "memOffset": "DEEF0,0,80,B8",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
