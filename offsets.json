@@ -395,7 +395,7 @@
             "clearscore": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "E01D8,0,98,0,0,148,2F8",
+                "memOffset": "E0760,0,0",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
