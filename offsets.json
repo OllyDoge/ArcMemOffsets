@@ -441,7 +441,7 @@
             "inplay": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "E01D8,0,88,150,140,140,0,20,2A0,38",
+                "memOffset": "E01D8,0,88,150,140,140,0,8,2E8,38",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
