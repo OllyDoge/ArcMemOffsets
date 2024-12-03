@@ -640,7 +640,7 @@
             "userinfo": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "E7698,0,80,C8",
+                "memOffset": "E7C38,0,80,C8",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
