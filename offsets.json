@@ -67,7 +67,7 @@
             "inplay": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "E7BF8,0,88,150,140,140,0,8,2E8,38",
+                "memOffset": "E7BF8,0,10,150,140,2A0,10,148,148,2F0,38",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
@@ -194,7 +194,7 @@
             "inplay": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "E7528,0,88,150,140,140,0,8,2E8,38",
+                "memOffset": "E7528,0,10,150,140,2A0,10,148,148,2F0,38",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
@@ -321,7 +321,7 @@
             "inplay": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "E73A8,0,88,150,140,140,0,8,2E8,38",
+                "memOffset": "E73A8,0,10,150,140,2A0,10,148,148,2F0,38",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
