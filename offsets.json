@@ -779,7 +779,7 @@
             "clearscore": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "EED08,0,10,150,140,310,20,148,2F8",
+                "memOffset": "EED08,0,10,150,140,318,20,148,300",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
@@ -906,7 +906,7 @@
             "clearscore": {
                 "locateMode": 0,
                 "locateValue": "libcocos2dcpp.so.1",
-                "memOffset": "ED8A8,0,10,150,140,310,20,148,2F8",
+                "memOffset": "ED8A8,0,10,150,140,318,20,148,300",
                 "lookMode": 0,
                 "lookValue": "",
                 "struct": {
