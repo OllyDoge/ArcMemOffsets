@@ -82,7 +82,7 @@
                     "far_early": "84,int",
                     "far_late": "80,int",
                     "lost": "6C,int",
-                    "abstime": "D0,int"
+                    "abstime": "D4,int"
                 },
                 "innerStructs": {
                     "info": {
@@ -208,7 +208,7 @@
                     "far_early": "84,int",
                     "far_late": "80,int",
                     "lost": "6C,int",
-                    "abstime": "D0,int"
+                    "abstime": "D4,int"
                 },
                 "innerStructs": {
                     "info": {
