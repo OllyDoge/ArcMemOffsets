@@ -808,5 +808,329 @@
 			],
 			"structure": {}
 		}
+	},
+	{
+		"gamever": "6.10.3",
+		"userinfo": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"14EFE30"
+			],
+			"register": [
+				0
+			],
+			"structure": {
+				"uid": "C",
+				"friendcode": "11",
+				"username": "29",
+				"character": "40",
+				"ptt": "44"
+			}
+		},
+		"clearscore": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"708820"
+			],
+			"register": [
+				0
+			],
+			"structure": {
+				"score": "10",
+				"maxpure": "14",
+				"pure": "18",
+				"far": "1C",
+				"lost": "20",
+				"songid": "39",
+				"diff": "50",
+				"modifier": "54",
+				"trackvalue": "28",
+				"time": "30",
+				"nosave": "94"
+			}
+		},
+		"ranklist": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"76A9E4"
+			],
+			"register": [
+				1,
+				2
+			],
+			"structure": {
+				"diff": "50",
+				"score": "10",
+				"maxpure": "14",
+				"pure": "18",
+				"far": "1C",
+				"lost": "20",
+				"songid": "39",
+				"modifier": "54",
+				"trackvalue": "28",
+				"time": "30",
+				"player": "B0"
+			},
+			"structure_player": {
+				"uid": "C",
+				"name": "29"
+			}
+		},
+		"inplay": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"160C5E4",
+				"160CA70",
+				"1682EF4",
+				"1683090",
+				"98CF8C"
+			],
+			"register": [
+				0,
+				1,
+				4,
+				0,
+				1,
+				0
+			],
+			"structure": {
+				"info": "B0",
+				"maxnote": "C",
+				"score": "14",
+				"maxpure": "60",
+				"pure": "64",
+				"far": "68",
+				"lost": "6C",
+				"pure_early": "8C",
+				"pure_late": "88",
+				"far_early": "84",
+				"far_late": "80",
+				"abstime": "DC"
+			},
+			"structure_info": {
+				"songid": "10",
+				"songdiff": "18"
+			},
+			"structure_sondid": {
+				"songid": "1"
+			},
+			"structure_songdiff": {
+				"diff": "124"
+			},
+			"structure_element": {
+				"chart_timing": "18"
+			}
+		},
+		"world": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"E77AD4"
+			],
+			"register": [
+				0
+			],
+			"structure": {
+				"charstep": "78",
+				"charstepnobonus": "3C",
+				"playbase": "44",
+				"movestepnobonus": "7C",
+				"movestep": "4C"
+			}
+		},
+		"frag": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"17FE730"
+			],
+			"register": [
+				120
+			],
+			"structure": {
+				"frag": "14"
+			}
+		},
+		"songselected": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"15FAA08"
+			],
+			"register": [
+				1,
+				2
+			],
+			"structure": {}
+		},
+		"sceneswitch": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"145512C"
+			],
+			"register": [
+				1
+			],
+			"structure": {}
+		}
+	},
+	{
+		"gamever": "6.10.3c",
+		"userinfo": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"F4E59C"
+			],
+			"register": [
+				0
+			],
+			"structure": {
+				"uid": "C",
+				"friendcode": "11",
+				"username": "29",
+				"character": "40",
+				"ptt": "44"
+			}
+		},
+		"clearscore": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"11AD4E0"
+			],
+			"register": [
+				0
+			],
+			"structure": {
+				"score": "10",
+				"maxpure": "14",
+				"pure": "18",
+				"far": "1C",
+				"lost": "20",
+				"songid": "39",
+				"diff": "50",
+				"modifier": "54",
+				"trackvalue": "28",
+				"time": "30",
+				"nosave": "94"
+			}
+		},
+		"ranklist": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"E88730"
+			],
+			"register": [
+				1,
+				2
+			],
+			"structure": {
+				"diff": "50",
+				"score": "10",
+				"maxpure": "14",
+				"pure": "18",
+				"far": "1C",
+				"lost": "20",
+				"songid": "39",
+				"modifier": "54",
+				"trackvalue": "28",
+				"time": "30",
+				"player": "B0"
+			},
+			"structure_player": {
+				"uid": "C",
+				"name": "29"
+			}
+		},
+		"inplay": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"BEAB74",
+				"BEB000",
+				"9EDF30",
+				"9EE0CC",
+				"BA4CE0"
+			],
+			"register": [
+				0,
+				1,
+				4,
+				0,
+				1,
+				0
+			],
+			"structure": {
+				"info": "B0",
+				"maxnote": "C",
+				"score": "14",
+				"maxpure": "60",
+				"pure": "64",
+				"far": "68",
+				"lost": "6C",
+				"pure_early": "8C",
+				"pure_late": "88",
+				"far_early": "84",
+				"far_late": "80",
+				"abstime": "DC"
+			},
+			"structure_info": {
+				"songid": "10",
+				"songdiff": "18"
+			},
+			"structure_sondid": {
+				"songid": "1"
+			},
+			"structure_songdiff": {
+				"diff": "124"
+			},
+			"structure_element": {
+				"chart_timing": "18"
+			}
+		},
+		"world": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"12679C0"
+			],
+			"register": [
+				0
+			],
+			"structure": {
+				"charstep": "78",
+				"charstepnobonus": "3C",
+				"playbase": "44",
+				"movestepnobonus": "7C",
+				"movestep": "4C"
+			}
+		},
+		"frag": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"17D9CF0"
+			],
+			"register": [
+				120
+			],
+			"structure": {
+				"frag": "14"
+			}
+		},
+		"songselected": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"D1E08C"
+			],
+			"register": [
+				1,
+				2
+			],
+			"structure": {}
+		},
+		"sceneswitch": {
+			"find": "libcocos2dcpp.so",
+			"offset": [
+				"154FD00"
+			],
+			"register": [
+				1
+			],
+			"structure": {}
+		}
 	}
 ]
