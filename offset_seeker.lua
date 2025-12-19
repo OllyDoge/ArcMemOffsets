@@ -334,6 +334,7 @@ end
 
 ValueSet("__meta_script_version", "int32", 0); 
 cocoslibbase = Library_GetBase("libcocos2dcpp.so");
+libcocos2dcpp = cocoslibbase;
 if cocoslibbase == nil then
     error("Unable to locate 'libcocos2dcpp.so' base address.");
 end
@@ -389,6 +390,21 @@ ValueSet("clearscore.modifier", "int32", 0x54);
 ValueSet("clearscore.time", "int32", 0x30);
 ValueSet("clearscore.nosave", "int32", 0x94);
 ValueSet("clearscore.score", "int32", 0x10);
+ValueSet("clearscore_uploaded._libname", "string", "libcocos2dcpp.so");
+do
+    local signloc = Memory_FindWithMask("00 64 41 F9 80 01 00 B4 F6 03 01 2A", libcocos2dcpp.addr_start, libcocos2dcpp.addr_end);
+    if signloc ~= nil then
+        local find = SearchFunctionStart(signloc - 0x30, 0x28);
+        if find ~= nil then
+            LogInfo(string.format("Clearscore_uploaded: 0x%X", find - libcocos2dcpp.addr_start));
+            ValueSet("clearscore_uploaded._funcoffset", "int32", find - libcocos2dcpp.addr_start);
+        else
+            error("Clearscore_Uploaded: Unable to locate function start.");
+        end
+    else
+        error("Clearscore_Uploaded: Unable to find Mask.");
+    end
+end
 ValueSet("ranklist._libname", "string", "libcocos2dcpp.so");
 signlocate_ranklist = Memory_FindWithMask("3F 00 02 EB 40 03 00 54",
                                           cocoslibbase.addr_start,
