@@ -531,9 +531,9 @@ ValueSet("world.charstep", "int32", 0x78);
 ValueSet("frag._libname", "string", "libcocos2dcpp.so");
 do
     local signlocate = Memory_FindWithMask(
-                           "1F 01 00 71 E8 17 9F 1A 28 01 08 4B 1F 05 00 71 0B 1D 00 54",
+                           "08 3D 40 F9 08 15 40 B9 1F 05 00 71 6B 1E 00 54",
                            cocoslibbase.addr_start, cocoslibbase.addr_end);
-    local asmBase = signlocate - 0x78;
+    local asmBase = signlocate - 0x50;
     local cmdLibBase = asmBase - cocoslibbase.addr_start;
     local cmdLibPageBase = cmdLibBase // 0x1000 * 0x1000;
     local adrpInfo = A64.Address.Decode(Memory_Read_uint32(asmBase));
